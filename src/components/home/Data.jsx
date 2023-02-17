@@ -57,7 +57,7 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Full Stack Developer</h3>
       <p className="home__description">
-        Hello! I am a sophomore at SCU pursuing a Computer Science and
+        Hello! I am a sophomore at Santa Clara University pursuing a Computer Science and
         Engineering degree. I am an organized and hard-working student that is
         open to learning new skills and starting new projects.
       </p>
