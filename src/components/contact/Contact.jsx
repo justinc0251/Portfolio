@@ -28,7 +28,7 @@ const Contact = () => {
             <h3 className="contact__card-title">Email</h3>
             <span className="contact__card-data">jdchung@scu.edu</span>
 
-            <a href="" className="contact__button">
+            <a href="mailto:jdchung@scu.edu" className="contact__button">
               <i className="bx bx-right-arrow-alt contact__button-icon"></i>
             </a>
           </div>
