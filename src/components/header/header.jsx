@@ -21,7 +21,7 @@ const Header = () => {
             </li>
             <li className="nav__item">
               <a href="#skills" className="nav__link">
-                <i className="uil uil-file-alt nav__icon"></i> Skills
+                <i class="uil uil-pen nav__icon"></i> Skills
               </a>
             </li>
             <li className="nav__item">
@@ -30,7 +30,12 @@ const Header = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href={Resume} className="nav__link" target="_blank" rel="noreferrer">
+              <a
+                href={Resume}
+                className="nav__link"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <i class="uil uil-file-info-alt nav__icon"></i> Resume
               </a>
             </li>
