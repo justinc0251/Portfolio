@@ -1,3 +1,8 @@
+.section__title
+{
+  margin-bottom: var(--mb-2-5)
+}
+
 .work__container {
   grid-template-columns: repeat(2, max-content);
   gap: 3rem;
@@ -12,7 +17,7 @@
 }
 
 .work__img {
-  width: 300px;
+  width: 265px;
   height: 225px;
   border-radius: 1rem;
   margin-bottom: var(--mb-1);

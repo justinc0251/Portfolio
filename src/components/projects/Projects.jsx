@@ -5,7 +5,7 @@ import ProjectItems from "./ProjectItems";
 
 const Projects = () => {
   return (
-    <section className="projects section" id="projectlist">
+    <section className="projects section" id="projects">
       <h2 className="section__title">Projects</h2>
 
       <div className="work__container container grid">
