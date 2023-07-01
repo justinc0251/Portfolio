@@ -2,17 +2,25 @@ import React from "react";
 import "./skills.css";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
+import Fade from "react-reveal/Fade";
 
 const skills = () => {
   return (
-    <section className="skills section" id="skills">
-      <h2 className="section__title" id="skills-title">Skills</h2>
-
-      <div className="skills__container container grid">
-        <Frontend />
-        <Backend />
-      </div>
-    </section>
+    <Fade bottom duration={750} delay={100} distance="30px">
+      <section className="skills section" id="skills">
+        <Fade bottom duration={750} delay={200} distance="30px">
+          <h2 className="section__title" id="skills-title">
+            Skills
+          </h2>
+        </Fade>
+        <Fade bottom duration={750} delay={300} distance="30px">
+          <div className="skills__container container grid">
+            <Frontend />
+            <Backend />
+          </div>
+        </Fade>
+      </section>
+    </Fade>
   );
 };
 

@@ -1,9 +1,16 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const ScrollDown = () => {
   return (
     <div className="home__scroll">
-      <a href="#skills" className="home__scroll-button button--flex">
+      <Link
+        to="about"
+        spy={true}
+        smooth={true}
+        duration={500}
+        className="home__scroll-button button--flex"
+      >
         <svg
           width="32px"
           height="32px"
@@ -39,9 +46,8 @@ const ScrollDown = () => {
             }}
           ></path>
         </svg>
-        <span className="home__scroll-name">Scroll Down</span>
         <i class="uil uil-arrow-down home__scroll-arrow"></i>
-      </a>
+      </Link>
     </div>
   );
 };

@@ -11,10 +11,6 @@
   border-radius: 1.25rem;
 }
 
-#skills-title {
-  margin-bottom: 2rem;
-}
-
 .skills__title {
   font-weight: var(--font-semi-bold);
   text-align: center;

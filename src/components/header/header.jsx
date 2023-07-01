@@ -1,33 +1,68 @@
 import React, { useState } from "react";
 import "./header.css";
 import Resume from "../../assets/Resume.pdf";
+import { Link } from "react-scroll";
 
 const Header = () => {
   /* Toggle Menu */
   const [Toggle, showMenu] = useState(false);
+  const [click, setClick] = useState(false);
+
+  const closeMenu = () => setClick(false);
 
   return (
     <header className="header">
       <nav className="nav container">
-        <a href="index.html" className="nav__logo">
-          
-        </a>
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
-          <ul className="nav__list grid">
+          <ul className={click ? "nav__list grid active" : "nav__list grid"}>
             <li className="nav__item">
-              <a href="#home" className="nav__link active-link">
+              <Link
+                to="home"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-100}
+                className="nav__link"
+                onClick={closeMenu}
+              >
                 <i className="uil uil-estate nav__icon"></i> Home
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
-              <a href="#skills" className="nav__link">
-                <i class="uil uil-pen nav__icon"></i> Skills
-              </a>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="nav__link"
+              >
+                <i className="uil uil-estate nav__icon"></i> About
+              </Link>
             </li>
             <li className="nav__item">
-              <a href="#projects" className="nav__link">
+              <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="nav__link"
+              >
+                <i className="uil uil-file-alt nav__icon"></i> Skills
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="nav__link"
+              >
                 <i className="uil uil-file-alt nav__icon"></i> Projects
-              </a>
+              </Link>
             </li>
             <li className="nav__item">
               <a
@@ -40,9 +75,16 @@ const Header = () => {
               </a>
             </li>
             <li className="nav__item">
-              <a href="#contact" className="nav__link">
-                <i className="uil uil-message nav__icon"></i> Contact
-              </a>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={0}
+                className="nav__link"
+              >
+                <i className="uil uil-message nav__icon"></i> Contact Me
+              </Link>
             </li>
           </ul>
 
