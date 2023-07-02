@@ -2,6 +2,7 @@ import React from "react";
 import "./skills.css";
 import Frontend from "./Frontend";
 import Backend from "./Backend";
+import Tools from "./Tools";
 import Fade from "react-reveal/Fade";
 
 const skills = () => {
@@ -17,6 +18,7 @@ const skills = () => {
           <div className="skills__container container grid">
             <Frontend />
             <Backend />
+            <Tools />
           </div>
         </Fade>
       </section>

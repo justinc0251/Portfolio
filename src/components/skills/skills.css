@@ -1,5 +1,5 @@
 .skills__container {
-  grid-template-columns: repeat(2, 350px);
+  grid-template-columns: repeat(3, 300px);
   column-gap: 3rem;
   justify-content: center;
 }
@@ -32,6 +32,7 @@
 .skills__data {
   display: flex;
   column-gap: 0.5rem;
+  align-items: center;
 }
 
 .skills .bx-badge-check {
@@ -43,6 +44,15 @@
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   line-height: 18px;
+}
+
+i {
+  font-size: 2rem;
+}
+
+img {
+  height: 32px;
+  width: auto;
 }
 
 /* large devices */
