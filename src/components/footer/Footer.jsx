@@ -1,23 +1,10 @@
 import React from "react";
 import "./footer.css";
-import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <div className="go-top">
-          <Link
-            to="home"
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-100}
-            className="go-top"
-          >
-            <i class="bx bx-up-arrow-alt"></i>
-          </Link>
-        </div>
         <div className="footer__social">
           <a
             href="https://www.linkedin.com/in/justin-chung-a7b966226/"

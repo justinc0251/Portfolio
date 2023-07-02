@@ -20,9 +20,3 @@
 .footer__social-icon:hover {
     color: var(--title-color-dark);
 }
-
-.go-top {
-    font-size: 2.25rem;
-    color: var(--title-color);
-    cursor: pointer;
-}
