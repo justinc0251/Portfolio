@@ -12,7 +12,7 @@ const Projects = () => {
           <h2 className="section__title">Projects</h2>
         </Fade>
         <Fade bottom duration={750} delay={300} distance="30px">
-          <div className="work__container container grid">
+          <div className="work__container container">
             {projectsData.map((item) => {
               return <ProjectItems item={item} key={item.id} />;
             })}
