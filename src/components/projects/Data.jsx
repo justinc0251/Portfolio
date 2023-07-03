@@ -9,7 +9,6 @@ export const projectsData = [
     id: 1,
     image: Work1,
     title: "Discord Music Bot",
-    link: "https://github.com/justinc0251/discord-music-bot",
     stack: ["JavaScript", "Node.js", "Discord.js", "FFmpeg", "YTDL-Core", "Heroku"],
     description: "A Discord bot that plays music from YouTube. ",
     github: "https://github.com/justinc0251/discord-music-bot",
@@ -27,7 +26,6 @@ export const projectsData = [
     id: 3,
     image: Work3,
     title: "ParkMe",
-    link: "https://github.com/danielkazarian/inrix-hack-2022",
     stack: [
       "React",
       "JavaScript",

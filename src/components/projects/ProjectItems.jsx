@@ -14,21 +14,23 @@ const ProjectItems = ({ item }) => {
         </div>
         <p className="work__description">{item.description}</p>
         <div className="work__links">
-          <a
-            href={item.link}
-            target="_blank"
-            className="work__button"
-            rel="noreferrer"
-          >
-            Demo <i className="bx bx-right-arrow-alt work__button-icon"></i>
-          </a>
+          {item.link ? (
+            <a
+              href={item.link}
+              target="_blank"
+              className="work__button"
+              rel="noreferrer"
+            >
+              Demo
+            </a>
+          ) : null}
           <a
             href={item.github}
             target="_blank"
             className="work__button"
             rel="noreferrer"
           >
-            GitHub <i className="bx bx-right-arrow-alt work__button-icon"></i>
+            GitHub
           </a>
         </div>
       </div>
