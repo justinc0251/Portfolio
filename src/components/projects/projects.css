@@ -1,5 +1,5 @@
 .projects {
-  background-color: rgb(225, 255, 255);
+  background-color: rgb(230, 253, 253)
 }
 
 .section__title {
@@ -44,7 +44,7 @@
 .work__stack-item {
   font-size: var(--small-font-size);
   color: rgb(0, 0, 0);
-  background-color: rgb(200, 249, 255);
+  background-color: rgb(164, 243, 253);
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   margin-right: 0.5rem;
@@ -53,8 +53,7 @@
 
 .work__img {
   display: block;
-  max-width: 250px;
-  max-height: 350px;
+  max-width: 280px;
   height: auto;
   width: auto;
   border-radius: 1rem;
