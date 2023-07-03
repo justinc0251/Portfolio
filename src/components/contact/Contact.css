@@ -158,6 +158,10 @@
   .contact__form {
     margin: 0 auto;
   }
+  .contact__card {
+    max-width: 30%;
+    margin: 0 auto;
+  }
 }
 @media screen and (max-width: 576px) {
   .contact__info {
