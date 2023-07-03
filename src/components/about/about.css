@@ -4,9 +4,8 @@
 
 .about__description {
   width: 30%;
-  font-size: 1.5rem;
+  font-size: var(--h3-font-size);
   display: flex;
-  font-size: var(--h4-font-size);
   padding-top: 2rem;
 }
 
