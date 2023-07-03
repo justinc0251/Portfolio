@@ -1,5 +1,5 @@
 import React from "react";
-import api_img from "../../assets/api.png";
+import api_img from "../../assets/logos/api.png";
 
 const Backend = () => {
   return (

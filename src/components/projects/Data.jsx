@@ -1,8 +1,8 @@
-import Work1 from "../../assets/discord_logo_icon_145337.png";
-import Work2 from "../../assets/wordle.png";
-import Work3 from "../../assets/parkme.png";
-import Work4 from "../../assets/calculator.png";
-import Work5 from "../../assets/sketch.png";
+import Work1 from "../../assets/projects/discord-logo.png";
+import Work2 from "../../assets/projects/wordle.png";
+import Work3 from "../../assets/projects/parkme.png";
+import Work4 from "../../assets/projects/calculator.png";
+import Work5 from "../../assets/projects/sketch.png";
 
 export const projectsData = [
   {

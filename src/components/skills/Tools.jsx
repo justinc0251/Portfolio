@@ -1,6 +1,6 @@
 import React from "react";
-import postman_img from "../../assets/postman.png";
-import netlify_img from "../../assets/netlify.png";
+import postman_img from "../../assets/logos/postman.png";
+import netlify_img from "../../assets/logos/netlify.png";
 
 const Tools = () => {
   return (

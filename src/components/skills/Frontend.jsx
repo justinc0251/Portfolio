@@ -1,5 +1,5 @@
 import React from "react";
-import mapbox_img from "../../assets/mapbox.png";
+import mapbox_img from "../../assets/logos/mapbox.png";
 
 const Frontend = () => {
   return (
