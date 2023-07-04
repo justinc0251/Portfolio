@@ -21,7 +21,6 @@
 
 .work__links {
   display: flex;
-  justify-content: center;
   gap: 1rem;
   margin-bottom: var(--mb-1-5);
 }
