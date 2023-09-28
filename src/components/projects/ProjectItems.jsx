@@ -21,7 +21,7 @@ const ProjectItems = ({ item }) => {
               className="work__button"
               rel="noreferrer"
             >
-              Demo
+              See Live
             </a>
           ) : null}
           <a
@@ -34,7 +34,18 @@ const ProjectItems = ({ item }) => {
           </a>
         </div>
       </div>
-      <img src={item.image} alt="" className="work__img" />
+      <div className="img__container">
+        {!item.image ? (
+          <iframe
+            className="video"
+            src={item.video}
+            title="YouTube video"
+            allowFullScreen
+          ></iframe>
+        ) : (
+          <img src={item.image} alt="project" className="work__img" />
+        )}
+      </div>
     </div>
   );
 };

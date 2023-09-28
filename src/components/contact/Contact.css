@@ -18,6 +18,10 @@
   margin-bottom: var(--mb-0-25);
 }
 
+.section__title {
+  margin-left: 3rem;
+}
+
 .contact__card-title,
 .contact__card-data {
   font-size: var(--small-font-size);

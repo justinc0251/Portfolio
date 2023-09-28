@@ -8,7 +8,7 @@
 .home__social {
   display: flex;
   justify-content: center;
-  margin-bottom: 14%;
+  margin-bottom: 12%;
   margin-top: 1rem;
   gap: 1rem;
 }
@@ -43,9 +43,6 @@
 }
 
 .home__scroll {
-  display: flex;
-  gap: 0.5rem;
-  justify-content: center;
   cursor: pointer;
 }
 

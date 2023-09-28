@@ -1,4 +1,3 @@
-import Work1 from "../../assets/projects/discord-logo.png";
 import Work2 from "../../assets/projects/wordle.png";
 import Work3 from "../../assets/projects/parkme.png";
 import Work4 from "../../assets/projects/calculator.png";
@@ -7,14 +6,38 @@ import Work5 from "../../assets/projects/sketch.png";
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
+    video: "https://www.youtube.com/embed/EWE_8sm45_s",
+    title: "Spotify to YouTube Playlist Converter",
+    link: "https://spotify-youtube-convert-89a98418f1e9.herokuapp.com",
+    stack: [
+      "React",
+      "Spotify API",
+      "YouTube API",
+      "Node.js",
+      "Express.js",
+      "Heroku",
+      "Passport.js",
+    ],
+    description: "Convert your Spotify playlists to YouTube playlists.",
+    github: "https://github.com/justinc0251/spotify-youtube-converter",
+  },
+  {
+    id: 2,
+    video: "https://www.youtube.com/embed/_q2OEhN2obo",
     title: "Discord Music Bot",
-    stack: ["JavaScript", "Node.js", "Discord.js", "FFmpeg", "YTDL-Core", "Heroku"],
+    stack: [
+      "JavaScript",
+      "Node.js",
+      "Discord.js",
+      "FFmpeg",
+      "YTDL-Core",
+      "Heroku",
+    ],
     description: "A Discord bot that plays music from YouTube. ",
     github: "https://github.com/justinc0251/discord-music-bot",
   },
   {
-    id: 2,
+    id: 3,
     image: Work2,
     title: "Wordle Clone",
     link: "https://justinc0251.github.io/wordle-clone/",
@@ -23,7 +46,7 @@ export const projectsData = [
     github: "https://github.com/justinc0251/wordle-clone",
   },
   {
-    id: 3,
+    id: 4,
     image: Work3,
     title: "ParkMe",
     stack: [
@@ -42,7 +65,7 @@ export const projectsData = [
     github: "https://github.com/danielkazarian/inrix-hack-2022",
   },
   {
-    id: 4,
+    id: 5,
     image: Work4,
     title: "Calculator",
     link: "https://justinc0251.github.io/calculator/",
@@ -51,7 +74,7 @@ export const projectsData = [
     github: "https://github.com/justinc0251/calculator",
   },
   {
-    id: 5,
+    id: 6,
     image: Work5,
     title: "Etch-A-Sketch",
     link: "https://justinc0251.github.io/etch-a-sketch/",

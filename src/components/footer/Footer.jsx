@@ -31,6 +31,10 @@ const Footer = () => {
             <i class="bx bx-envelope"></i>
           </a>
         </div>
+        <p className="footer-info">
+          © 2023 Justin Chung <br></br>
+          Built using React and GitHub Pages
+        </p>
       </div>
     </footer>
   );

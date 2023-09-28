@@ -34,7 +34,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-70}
+                offset={-50}
                 className="nav__link"
               >
                 <i className="uil uil-estate nav__icon"></i> About
@@ -80,7 +80,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={0}
+                offset={-50}
                 className="nav__link"
               >
                 <i className="uil uil-message nav__icon"></i> Contact Me
