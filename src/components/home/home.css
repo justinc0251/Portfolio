@@ -1,25 +1,28 @@
 .home {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-top: 15%;
+  height: 100vh;
+  padding: 0 1.5rem;
+  gap: 30%;
+  margin-top: 8%;
 }
 
 .home__social {
   display: flex;
   justify-content: center;
-  margin-bottom: 12%;
-  margin-top: 1rem;
   gap: 1rem;
 }
 
 .home__social-icon {
   font-size: 1.75rem;
-  color: rgb(80, 229, 229);
+  color: rgb(28, 123, 201);
 }
 
 .home__social-icon:hover {
-  color: rgb(52, 153, 153);
+  color: rgb(0, 0, 0);
   transform: translateY(-3px);
 }
 
@@ -44,6 +47,7 @@
 
 .home__scroll {
   cursor: pointer;
+  margin-top: 100%;
 }
 
 .wheel {

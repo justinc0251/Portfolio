@@ -10,7 +10,7 @@ const home = () => {
     <section className="home section" id="home">
       <div className="home__content">
         <Data />
-        <Fade bottom duration={750} delay={200} distance="30px">
+        <Fade bottom duration={750} delay={300} distance="30px">
           <Social />
         </Fade>
       </div>

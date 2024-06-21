@@ -4,6 +4,7 @@
 
 .section__title {
   margin-bottom: var(--mb-2-5);
+  padding-top: 5%;
 }
 
 .work__container {
@@ -11,6 +12,7 @@
   flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
+  padding-bottom: 5%;
 }
 
 .work_content {

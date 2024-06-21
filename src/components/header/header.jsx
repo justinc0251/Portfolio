@@ -46,7 +46,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-70}
+                offset={-20}
                 className="nav__link"
               >
                 <i className="uil uil-file-alt nav__icon"></i> Skills
@@ -58,7 +58,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-70}
+                offset={-20}
                 className="nav__link"
               >
                 <i className="uil uil-file-alt nav__icon"></i> Projects
@@ -80,7 +80,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-50}
+                offset={-20}
                 className="nav__link"
               >
                 <i className="uil uil-message nav__icon"></i> Contact Me

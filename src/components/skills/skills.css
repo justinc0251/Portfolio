@@ -1,7 +1,18 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
 .skills__container {
   grid-template-columns: repeat(3, 300px);
   column-gap: 3rem;
   justify-content: center;
+  margin-bottom: 10%;
+
 }
 
 .skills__content {
@@ -57,6 +68,9 @@ img {
 
 /* large devices */
 @media screen and (max-width: 992px) {
+  .skills{
+    height: auto;
+  }
   .skills__container {
     grid-template-columns: max-content;
     row-gap: 2rem;
