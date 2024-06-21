@@ -2,6 +2,7 @@ import Work2 from "../../assets/projects/wordle.png";
 import Work3 from "../../assets/projects/parkme.png";
 import Work4 from "../../assets/projects/calculator.png";
 import Work5 from "../../assets/projects/sketch.png";
+import Work1 from "../../assets/projects/platepals.png";
 
 export const projectsData = [
   {
@@ -23,6 +24,51 @@ export const projectsData = [
   },
   {
     id: 2,
+    image: Work1,
+    title: "PlatePals",
+    link: "https://ssl.students.engr.scu.edu/~jdchung/PlatePals/home.php",
+    stack: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "PHP",
+      "MySQL",
+    ],
+    description: "Recipe sharing website to connect culinary enthusiasts.",
+    github: "https://github.com/asterli/PlatePals/",
+  },
+  {
+    id: 3,
+    video: "https://www.youtube.com/embed/-jPg9GvSo4s",
+    title: "ClubHub",
+    link: "https://www.club-hub.live/",
+    stack: [
+      "React",
+      "JavaScript",
+      "Firebase",
+      "Node.js",
+      "GPT API",
+      "Heroku",
+    ],
+    description: "Centralized platform for discovering and staying updated on club events at Santa Clara University.",
+    github: "https://github.com/CSEN-SCU/csen-174-s24-project-clubhub",
+  },
+  {
+    id: 4,
+    video: "https://www.youtube.com/embed/EFEdL2b5tcU",
+    title: "VitAlz",
+    link: "https://devpost.com/software/vitalz",
+    stack: [
+      "Swift",
+      "Xcode",
+      "CoreML",
+      "Firebase",
+    ],
+    description: "Centralized platform for discovering and staying updated on club events at Santa Clara University.",
+    github: "https://github.com/justinc0251/VitAlz",
+  },
+  {
+    id: 5,
     video: "https://www.youtube.com/embed/_q2OEhN2obo",
     title: "Discord Music Bot",
     stack: [
@@ -37,7 +83,7 @@ export const projectsData = [
     github: "https://github.com/justinc0251/discord-music-bot",
   },
   {
-    id: 3,
+    id: 6,
     image: Work2,
     title: "Wordle Clone",
     link: "https://justinc0251.github.io/wordle-clone/",
@@ -46,7 +92,7 @@ export const projectsData = [
     github: "https://github.com/justinc0251/wordle-clone",
   },
   {
-    id: 4,
+    id: 7,
     image: Work3,
     title: "ParkMe",
     stack: [
@@ -55,7 +101,6 @@ export const projectsData = [
       "HTML",
       "CSS",
       "Express.js",
-      "Express",
       "Postman",
       "Mapbox",
       "Inrix API",
@@ -65,7 +110,7 @@ export const projectsData = [
     github: "https://github.com/danielkazarian/inrix-hack-2022",
   },
   {
-    id: 5,
+    id: 8,
     image: Work4,
     title: "Calculator",
     link: "https://justinc0251.github.io/calculator/",
@@ -74,7 +119,7 @@ export const projectsData = [
     github: "https://github.com/justinc0251/calculator",
   },
   {
-    id: 6,
+    id: 9,
     image: Work5,
     title: "Etch-A-Sketch",
     link: "https://justinc0251.github.io/etch-a-sketch/",
