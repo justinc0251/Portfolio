@@ -1,19 +1,37 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./header.css";
 import Resume from "../../assets/Resume.pdf";
+import Toggle from "react-toggle";
 import { Link } from "react-scroll";
 
 const Header = () => {
   /* Toggle Menu */
-  const [Toggle, showMenu] = useState(false);
+  const [ToggleMenu, showMenu] = useState(false);
   const [click, setClick] = useState(false);
+  const [isDark, setIsDark] = useState(false);
 
   const closeMenu = () => setClick(false);
 
+  useEffect(() => {
+    if (isDark) {
+      document.body.classList.add("dark");
+    } else {
+      document.body.classList.remove("dark");
+    }
+  }, [isDark]);
+
   return (
     <header className="header">
+      <div classname="container toggle">
+        <Toggle
+          checked={isDark}
+          onChange={({ target }) => setIsDark(target.checked)}
+          icons={{ checked: "🌙", unchecked: "🔆" }}
+          aria-label="Dark mode toggle"
+        />
+      </div>
       <nav className="nav container">
-        <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
+        <div className={ToggleMenu ? "nav__menu show-menu" : "nav__menu"}>
           <ul className={click ? "nav__list grid active" : "nav__list grid"}>
             <li className="nav__item">
               <Link
@@ -90,11 +108,11 @@ const Header = () => {
 
           <i
             class="uil uil-times nav__close"
-            onClick={() => showMenu(!Toggle)}
+            onClick={() => showMenu(!ToggleMenu)}
           ></i>
         </div>
 
-        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+        <div className="nav__toggle" onClick={() => showMenu(!ToggleMenu)}>
           <i class="uil uil-apps"></i>
         </div>
       </nav>

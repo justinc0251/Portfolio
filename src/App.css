@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 
 /* Variables */
 :root {
@@ -10,6 +10,7 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
+  --dark-body-color: hsl(var(--hue), var(--sat), 10%);
   --container-color: #fff;
 
   --body-font: "Karla", sans-serif;
@@ -80,6 +81,64 @@ body {
   color: black;
 }
 
+body.dark {
+  background-color: var(--dark-body-color);
+  color: var(--body-color);
+  --title-color: var(--body-color);
+  --container-color: rgb(39, 39, 39);
+  --text-color: #fff;
+}
+
+body.dark .footer__social-icon {
+  color: #fff;
+}
+
+body.dark .work__stack-item {
+  color: #fff;
+  background-color: rgb(0, 50, 90);
+}
+
+body.dark .work__button {
+  border: 2px solid rgb(0, 50, 90);
+}
+body.dark .work__button:hover {
+  background-color: rgb(0, 50, 90);
+
+}
+
+body.dark .about {
+  background-image: linear-gradient(rgb(0, 50, 90), rgb(0, 21, 39));
+}
+body.dark .projects {
+  background-image: linear-gradient(rgb(0, 50, 90), rgb(0, 21, 39));
+}
+
+body.dark .footer-info {
+  color: #fff;
+}
+
+body.dark .section__title {
+  color: var(--body-color);
+}
+body.dark .header {
+  background-color: rgb(39, 39, 39);
+}
+body.dark .contact__form-tag {
+  background-color: var(--dark-body-color);
+}
+
+body.dark .home__scroll-arrow {
+  color: var(--body-color);
+}
+body.dark .home__scroll-mouse .wheel {
+  color: var(--body-color);
+}
+
+body.dark .home__title,
+.home__subtitle {
+  color: var(--body-color);
+}
+
 h1,
 h2,
 h3 {
@@ -138,8 +197,8 @@ img {
 /* Buttons */
 .button {
   display: inline-block;
-  background-color: var(--title-color);
-  color: var(--container-color);
+  background-color: hsl(var(--hue), var(--sat), 20%);
+  color: #fff;
   padding: 1.25rem 2rem;
   border-radius: 1rem;
   font-weight: var(--font-medium);
