@@ -79,6 +79,7 @@ textarea {
 body {
   background-color: var(--body-color);
   color: black;
+  overflow-x: hidden;
 }
 
 body.dark {
