@@ -64,7 +64,7 @@ export const projectsData = [
       "CoreML",
       "Firebase",
     ],
-    description: "Centralized platform for discovering and staying updated on club events at Santa Clara University.",
+    description: "iOS app designed to educate and support Alzheimer's patients and caregivers through task tracking, memory exercises, and comprehensive resources.",
     github: "https://github.com/justinc0251/VitAlz",
   },
   {
