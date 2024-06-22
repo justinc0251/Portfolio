@@ -1,5 +1,4 @@
 import React from "react";
-import mapbox_img from "../../assets/logos/mapbox.png";
 
 const Frontend = () => {
   return (
@@ -10,14 +9,15 @@ const Frontend = () => {
         <div className="skills__group">
           <div className="skills__data">
             <i class="devicon-html5-plain colored"></i>
+            <i class="devicon-css3-plain colored"></i>
             <div>
-              <h3 className="skills__name">HTML</h3>
+              <h3 className="skills__name">HTML/CSS</h3>
             </div>
           </div>
           <div className="skills__data">
-            <i class="devicon-css3-plain colored"></i>
+            <i class="devicon-typescript-plain colored"></i>
             <div>
-              <h3 className="skills__name">CSS</h3>
+              <h3 className="skills__name">TypeScript</h3>
             </div>
           </div>
           <div className="skills__data">
@@ -42,9 +42,9 @@ const Frontend = () => {
             </div>
           </div>
           <div className="skills__data">
-            <img src={mapbox_img} alt="mapbox_logo"></img>
+            <i class="devicon-swift-plain"></i>
             <div>
-              <h3 className="skills__name">MapBox</h3>
+              <h3 className="skills__name">Swift</h3>
             </div>
           </div>
         </div>

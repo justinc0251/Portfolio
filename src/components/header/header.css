@@ -45,7 +45,7 @@
 
 .nav__item :hover, .nav__item .active {
   padding-bottom: 3px;
-  border-bottom: 3px solid rgb(151, 248, 248);
+  border-bottom: 3px solid rgb(28, 123, 201);
 }
 
 @media screen and (max-width: 768px) {

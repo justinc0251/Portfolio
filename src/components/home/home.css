@@ -16,12 +16,12 @@
   gap: 1rem;
 }
 
-.home__social-icon {
-  font-size: 1.75rem;
+.home__social-icon i {
+  font-size: 3rem;
   color: rgb(28, 123, 201);
 }
 
-.home__social-icon:hover {
+.home__social-icon i:hover {
   color: rgb(0, 0, 0);
   transform: translateY(-3px);
 }
@@ -35,7 +35,7 @@
   display: flex;
   justify-content: center;
   gap: 0.5rem;
-  font-size: var(--h3-font-size);
+  font-size: var(--h1-font-size);
   font-weight: var(--font-normal);
   margin-bottom: 0.5rem;
 }
@@ -47,7 +47,6 @@
 
 .home__scroll {
   cursor: pointer;
-  margin-top: 100%;
 }
 
 .wheel {

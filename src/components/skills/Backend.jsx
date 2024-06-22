@@ -1,5 +1,4 @@
 import React from "react";
-import api_img from "../../assets/logos/api.png";
 
 const Backend = () => {
   return (
@@ -42,9 +41,9 @@ const Backend = () => {
             </div>
           </div>
           <div className="skills__data">
-            <img src={api_img} alt="api_logo"></img>
+            <i class="devicon-python-plain colored"></i>
             <div>
-              <h3 className="skills__name">RESTful API</h3>
+              <h3 className="skills__name">Python</h3>
             </div>
           </div>
         </div>

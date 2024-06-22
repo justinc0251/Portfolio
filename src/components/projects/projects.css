@@ -1,5 +1,5 @@
 .projects {
-  background-image: linear-gradient(rgb(160, 250, 250), rgb(225, 255, 255));
+  background-image: linear-gradient(rgb(28, 123, 201), rgb(212, 235, 255));
 }
 
 .section__title {
@@ -36,6 +36,8 @@
   padding: 1.25rem;
   border-radius: 1rem;
   width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+
 }
 
 .work__stack {
@@ -47,7 +49,7 @@
 .work__stack-item {
   font-size: var(--small-font-size);
   color: rgb(0, 0, 0);
-  background-color: rgb(164, 243, 253);
+  background-color: rgb(68, 159, 233);
   padding: 0.25rem 0.5rem;
   border-radius: 0.25rem;
   margin-right: 0.5rem;
@@ -76,11 +78,11 @@
   border-radius: 0.5rem;
   padding: 0.5rem 1rem;
   background-color: var(--container-color);
-  border: 2px solid rgb(164, 243, 253);
+  border: 2px solid rgb(68, 159, 233);
 }
 
 .work__button:hover {
-  background-color: rgb(164, 243, 253);
+  background-color: rgb(68, 159, 233);
   color: white;
 }
 
@@ -94,7 +96,7 @@
   max-width: 100%;
   height: 360px;
   width: 640px;
-  border: 3px solid rgb(164, 243, 253);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
 }
 
