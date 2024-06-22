@@ -1,10 +1,8 @@
 .about {
-  background-image: linear-gradient(rgb(28, 123, 201), rgb(212, 235, 255));
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 1rem;
   flex-direction: column;
 }
 
@@ -12,7 +10,6 @@
   width: 40%;
   font-size: var(--h3-font-size);
   display: flex;
-  padding-top: 2rem;
 }
 
 .section__title {
@@ -35,8 +32,7 @@
   justify-content: center;
   align-items: center;
   gap: 5rem;
-  margin-bottom: 10%;
-
+  padding-bottom: 10%;
 }
 
 /* large devices */

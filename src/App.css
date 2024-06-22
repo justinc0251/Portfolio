@@ -8,7 +8,7 @@
   --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --text-color: hsl(var(--hue), var(--sat), 23%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --dark-body-color: hsl(var(--hue), var(--sat), 10%);
   --container-color: #fff;
@@ -89,6 +89,10 @@ body.dark {
   --text-color: #fff;
 }
 
+body.dark .accordion-item.active {
+  background-color: var(--dark-body-color);
+}
+
 body.dark .footer__social-icon {
   color: #fff;
 }
@@ -105,7 +109,10 @@ body.dark .work__button:hover {
   background-color: rgb(0, 50, 90);
 }
 
-body.dark .about {
+body.dark .home {
+  background-image: linear-gradient(rgb(0, 50, 90), rgb(0, 21, 39));
+}
+body.dark .skills {
   background-image: linear-gradient(rgb(0, 50, 90), rgb(0, 21, 39));
 }
 body.dark .projects {
@@ -123,7 +130,7 @@ body.dark .header {
   background-color: rgb(39, 39, 39);
 }
 body.dark .contact__form-tag {
-  background-color: var(--dark-body-color);
+  background-color: transparent;
 }
 
 body.dark .home__scroll-arrow {
@@ -148,10 +155,6 @@ h3 {
   font-weight: var(--font-semi-bold);
 }
 
-ul {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
 }
@@ -171,7 +174,7 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--text-color);
 }
 
 .section__subtitle {
@@ -221,11 +224,6 @@ img {
 
 /* large devices */
 @media screen and (max-width: 992px) {
-  .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
-  }
-
   .button {
     padding: 1rem 1.75rem;
   }

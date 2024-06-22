@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className="about section" id="about">
       <Fade bottom duration={750} delay={200} distance="30px">
-        <h2 className="section__title about__title">About</h2>
+        <h2 className="section__title about__title">About Me</h2>
       </Fade>
       <div className="about__data">
         <Fade left duration={750} delay={300} distance="30px">

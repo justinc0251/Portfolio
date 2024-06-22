@@ -55,7 +55,7 @@ const Header = () => {
                 offset={-70}
                 className="nav__link"
               >
-                <i className="uil uil-user nav__icon"></i> About
+                <i className="uil uil-user nav__icon"></i> About Me
               </Link>
             </li>
             <li className="nav__item">
@@ -68,6 +68,18 @@ const Header = () => {
                 className="nav__link"
               >
                 <i className="uil uil-keyboard-alt nav__icon"></i> Skills
+              </Link>
+            </li>
+            <li className="nav__item">
+              <Link
+                to="experience"
+                spy={true}
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="nav__link"
+              >
+                <i className="uil uil-keyboard-alt nav__icon"></i> Experience
               </Link>
             </li>
             <li className="nav__item">
@@ -98,7 +110,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={20}
+                offset={-30}
                 className="nav__link"
               >
                 <i className="uil uil-message nav__icon"></i> Contact Me
