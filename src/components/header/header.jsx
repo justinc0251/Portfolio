@@ -55,7 +55,7 @@ const Header = () => {
                 offset={-70}
                 className="nav__link"
               >
-                <i className="uil uil-estate nav__icon"></i> About
+                <i className="uil uil-user nav__icon"></i> About
               </Link>
             </li>
             <li className="nav__item">
@@ -67,7 +67,7 @@ const Header = () => {
                 offset={-70}
                 className="nav__link"
               >
-                <i className="uil uil-file-alt nav__icon"></i> Skills
+                <i className="uil uil-keyboard-alt nav__icon"></i> Skills
               </Link>
             </li>
             <li className="nav__item">
