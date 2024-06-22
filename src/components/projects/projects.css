@@ -118,7 +118,7 @@
 }
 
 /* medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .work__container {
     grid-template-columns: max-content;
   }
@@ -163,8 +163,8 @@
   }
   .video,
   .work__img {
-    max-width: 400px;
-    max-height: 300px;
+    max-width: 350px;
+    max-height: 250px;
   }
 }
 
