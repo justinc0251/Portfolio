@@ -44,62 +44,53 @@ const Contact = () => {
         <Fade bottom duration={750} delay={300} distance="30px">
           <div className="contact__container container grid">
             <div className="contact__content">
-              {!isEmailSent && !isError ? (
-                <div className="contact__card">
-                  <a href="mailto:jdchung@scu.edu" className="contact__button">
-                    <i className="bx bx-mail-send contact__card-icon"></i>
-                  </a>
-                  <h3 className="contact__card-title">Email</h3>
-                  <span className="contact__card-data">jdchung@scu.edu</span>
-                </div>
-              ) : null}
+              <div className="contact__card">
+                <a href="mailto:jdchung@scu.edu" className="contact__button">
+                  <i className="bx bx-mail-send contact__card-icon"></i>
+                </a>
+                <h3 className="contact__card-title">Email</h3>
+                <span className="contact__card-data">jdchung@scu.edu</span>
+              </div>
             </div>
             <div className="contact__content">
-              {isEmailSent ? (
-                <div className="modal">
-                  <div className="modal__content">
-                    <button className="modal__close" onClick={closeModal}>
-                      <i className="bx bx-x"></i>
-                    </button>
-                    <div className="success-message">
-                      Email Sent!<i class="bx bxs-checkbox-checked"></i>
-                    </div>
-                  </div>
+              <form ref={form} onSubmit={sendEmail} className="contact__form">
+                <div className="contact__form-div">
+                  <label className="contact__form-tag">Email</label>
+                  <input
+                    type="email"
+                    name="email"
+                    required
+                    className="contact__form-input"
+                  />
                 </div>
-              ) : isError ? (
-                <div className="error-message">
-                  Error sending email<i class="bx bxs-error"></i>
+                <div className="contact__form-div">
+                  <label className="contact__form-tag">Name</label>
+                  <input
+                    type="text"
+                    name="name"
+                    required
+                    className="contact__form-input"
+                  />
                 </div>
-              ) : (
-                <form ref={form} onSubmit={sendEmail} className="contact__form">
-                  <div className="contact__form-div">
-                    <label className="contact__form-tag">Email</label>
-                    <input
-                      type="email"
-                      name="email"
-                      required
-                      className="contact__form-input"
-                    />
+                <div className="contact__form-div contact__form-area">
+                  <label className="contact__form-tag">Message</label>
+                  <textarea
+                    name="message"
+                    cols="30"
+                    rows="10"
+                    required
+                    className="contact__form-input"
+                  ></textarea>
+                </div>
+                {isEmailSent ? (
+                  <div className="contact__success">
+                    Your message has been sent successfully! ✅ 
                   </div>
-                  <div className="contact__form-div">
-                    <label className="contact__form-tag">Name</label>
-                    <input
-                      type="text"
-                      name="name"
-                      required
-                      className="contact__form-input"
-                    />
+                ) : isError ? (
+                  <div className="contact__error">
+                    Something went wrong. Please try again. ❌
                   </div>
-                  <div className="contact__form-div contact__form-area">
-                    <label className="contact__form-tag">Message</label>
-                    <textarea
-                      name="message"
-                      cols="30"
-                      rows="10"
-                      required
-                      className="contact__form-input"
-                    ></textarea>
-                  </div>
+                ) : (
                   <button className="button button--flex">
                     Send Message
                     <svg
@@ -120,8 +111,8 @@ const Contact = () => {
                       ></path>
                     </svg>
                   </button>
-                </form>
-              )}
+                )}
+              </form>
             </div>
           </div>
         </Fade>
