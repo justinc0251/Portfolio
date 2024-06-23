@@ -47,7 +47,7 @@ export const projectsData = [
       "JavaScript",
       "Firebase",
       "Node.js",
-      "GPT API",
+      "Open API",
       "Heroku",
     ],
     description: "Centralized platform for discovering and staying updated on club events at Santa Clara University.",
