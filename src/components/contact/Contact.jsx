@@ -31,10 +31,6 @@ const Contact = () => {
     e.target.reset();
   };
 
-  const closeModal = () => {
-    setIsEmailSent(false);
-  };
-
   return (
     <Fade bottom duration={750} delay={100} distance="30px">
       <section className="contact section" id="contact">
