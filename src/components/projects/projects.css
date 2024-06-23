@@ -162,14 +162,13 @@
   }
   .video,
   .work__img {
-    max-width: 350px;
-    max-height: 250px;
+    max-width: 300px;
+    max-height: 200px;
   }
-}
-
-/* small devices */
-@media screen and (max-width: 350px) {
-  .work__item {
-    font-size: var(--small-font-size);
+  .work__stack {
+    width: 300px;
+  }
+  .work__description {
+    width: 300px;
   }
 }
