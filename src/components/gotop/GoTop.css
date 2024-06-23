@@ -2,7 +2,7 @@
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  z-index: 1000;
+  z-index: 1;
 }
 
 .arrow-icon {
@@ -27,4 +27,11 @@
 .bx-up-arrow-alt {
   font-size: 1.5rem;
   color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+  .scroll-to-top {
+    bottom: 4rem;
+    right: 1rem;
+  }
 }
