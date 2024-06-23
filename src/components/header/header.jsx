@@ -39,7 +39,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-175}
+                offset={-100}
                 className="nav__link"
                 onClick={closeMenu}
               >
@@ -52,7 +52,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-70}
+                offset={!ToggleMenu ? -70 : 0}
                 className="nav__link"
               >
                 <i className="uil uil-user nav__icon"></i> About Me
@@ -64,7 +64,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-70}
+                offset={!ToggleMenu ? -70 : 0}
                 className="nav__link"
               >
                 <i className="uil uil-keyboard-alt nav__icon"></i> Skills
@@ -76,7 +76,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-70}
+                offset={!ToggleMenu ? -70 : 0}
                 className="nav__link"
               >
                 <i className="uil uil-keyboard-alt nav__icon"></i> Experience
@@ -88,7 +88,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-20}
+                offset={!ToggleMenu ? -20 : 0}
                 className="nav__link"
               >
                 <i className="uil uil-file-alt nav__icon"></i> Projects
@@ -110,7 +110,7 @@ const Header = () => {
                 spy={true}
                 smooth={true}
                 duration={500}
-                offset={-30}
+                offset={!ToggleMenu ? -10 : 0}
                 className="nav__link"
               >
                 <i className="uil uil-message nav__icon"></i> Contact Me
